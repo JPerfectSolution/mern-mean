@@ -1,0 +1,24 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/project-mng/node_modules
+/project-mng-backend/node_modules
+/project-mng/.pnp
+/project-mng/.pnp.js
+
+# testing
+/project-mng/coverage
+
+# production
+/project-mng/build
+
+# misc
+/project-mng/.DS_Store
+/project-mng/.env.local
+/project-mng/.env.development.local
+/project-mng/.env.test.local
+/project-mng/.env.production.local
+
+/project-mng/npm-debug.log*
+/project-mng/yarn-debug.log*
+/project-mng/yarn-error.log*
